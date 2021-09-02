@@ -1,0 +1,127 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400&family=Luckiest+Guy&display=swap');
+
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;}
+
+body{
+	background-color: #487eb0;
+}
+#main{
+	width: 60%;
+	height: 830px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#columna{
+	width: 980px;
+	height: 300px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	background-color: #70a1ff;
+	column-rule: 2px solid #1B1464;
+	border-color: #1B1464;
+	border-width: 3px;
+	border-style: solid;
+  
+
+}
+.foto{
+	width: 1140px;
+          height:560px;
+          margin-right: 10%;
+          margin-left: 0;
+          background: 
+          url(../img/frozen.png) left bottom no-repeat,
+          url(../img/NIEVE.png) top repeat;
+          background-size: 400px 360px;
+
+         }
+
+.video1{
+			position: fixed;
+			top: 80%;
+			bottom: 0;
+			left: 50%;
+			right: 0%;
+			overflow: hidden;
+			z-index: -100;}
+.video{
+			position: absolute;
+			top: 0;
+			left: 0%;
+			width: 100%;
+			height: 100%;
+
+}
+.titulo{
+	font-size: 30px;
+font-family: 'Crimson Pro', serif;
+}
+.parrafo{
+	font-size: 20px;
+	font-family: 'Crimson Pro', serif;
+}
+ #cv{
+ 	margin-left: 40%;
+ 	padding-top: 2.5%;
+ 	color: #40739e;
+ 	font-size: 80px;
+ font-family: 'Luckiest Guy', cursive;width: 960px;
+   
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+#header{
+	width: 100%;
+	height: 150px;
+	background-color: #ffffff;
+}
+
+#nav{
+	width: 100%;
+	height: 80px;
+	background-color:#70a1ff ;
+	padding-left: 43%;
+	padding-top: 20px;
+	color: #1B1464;
+
+}
+#section{
+
+	width: 100%;
+	height: 900px;
+	padding-top: 5%;
+	background-color: #6a89cc;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+.nombre{
+	padding-bottom: 10%;
+	padding-left: 42%;
+	font-size: 30px;
+	text-decoration: none;
+	color: #5758BB;
+	
+}
+.up{
+width: 10%;
+height: 78px;
+margin-left: 2%;
+	margin-top: -12.7%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 80px;
+	background-color: #60a3bc;
+}
